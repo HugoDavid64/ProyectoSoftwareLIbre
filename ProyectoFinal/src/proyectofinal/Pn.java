@@ -6,6 +6,7 @@
 package proyectofinal;
 
 import java.applet.AudioClip;
+import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JButton;
@@ -38,7 +39,27 @@ public class Pn extends JFrame implements ActionListener{
     
     public void niños() {
     
-        
+        sonido = java.applet.Applet.newAudioClip(getClass().getResource("son.wav"));
+        sonido2 = java.applet.Applet.newAudioClip(getClass().getResource("son1.wav"));
+        ventanilla = new JFrame("Diferencie entre lo correcto e incorrecto ");
+        ventanilla.setLocation(0, 0);
+        ventanilla.setSize(1400, 1000);
+        ventanilla.getContentPane().setBackground(Color.gray);
+        ventanilla.setLayout(null);
+        ventanilla.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        lblflf = new JLabel(" DIFERENCIE ENTRE LO CORRECTO E INCORRECTO ");
+        lblflf.setBounds(220, 20, 1000, 100);
+        lblflf.setVisible(true);
+        lblflf.setFont(new java.awt.Font("Century Gothic", 0, 35));
+        ventanilla.getContentPane().add(lblflf);
+
+        pause = new JButton("  Reiniciar >>> ");
+        pause.setBounds(1000, 600, 200, 50);
+        pause.addActionListener(this);
+        pause.setVisible(true);
+        pause.setFont(new java.awt.Font("Century Gothic", 0, 15));
+        ventanilla.getContentPane().add(pause);
     
     
     }
