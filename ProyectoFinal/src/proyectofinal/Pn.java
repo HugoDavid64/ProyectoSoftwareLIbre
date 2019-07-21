@@ -9,6 +9,7 @@ import java.applet.AudioClip;
 import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -61,7 +62,20 @@ public class Pn extends JFrame implements ActionListener{
         pause.setFont(new java.awt.Font("Century Gothic", 0, 15));
         ventanilla.getContentPane().add(pause);
     
-    
+        r = new JButton();
+        r.addActionListener(this);
+        r.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r);
+
+        v = new JButton("");
+        v.addActionListener(this);
+        v.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        v.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(v);
+        
+        
+        
     }
     
     
