@@ -44,7 +44,7 @@ public class Proyecto extends JFrame implements ActionListener {
     Animales anim = new Animales();
 
     /*
-    numeros num = new numeros();
+    Numeros num = new Numeros();
     Pn p = new Pn();
     Figuras fg = new Figuras ();*/
 
