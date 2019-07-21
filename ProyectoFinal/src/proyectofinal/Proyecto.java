@@ -5,11 +5,13 @@
  */
 package proyectofinal;
 
+import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Timer;
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import static javax.swing.JFrame.EXIT_ON_CLOSE;
 import javax.swing.JLabel;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
@@ -38,8 +40,28 @@ public class Proyecto extends JFrame implements ActionListener {
     String datoPro;
     JLabel lblimg; 
     
+    
    
     
+    
+    
+   public void proyecVent() throws Exception {
+        
+       
+        vent = new JFrame();
+        vent.setTitle("TEST PARA NIÑOS CON DISCAPACIDAD INTELECTUAL ");
+        vent.setLocation(0, 0);
+        vent.setSize(5000, 800);
+        vent.getContentPane().setBackground(Color.WHITE);
+        vent.setLayout(null);
+        vent.setDefaultCloseOperation(EXIT_ON_CLOSE);
+
+        vent.setVisible(true);
+        lbltitulo = new JLabel(" TEST PARA NIÑOS CON DISCAPACIDAD INTELECTUAL ");
+        vent.getContentPane().add(lbltitulo);
+        lbltitulo.setBounds(215, 10, 1000, 100);
+        
+    }
     
     @Override
     public void actionPerformed(ActionEvent e) {
@@ -47,5 +69,4 @@ public class Proyecto extends JFrame implements ActionListener {
     }
     
     
-    //CambioNuevo
 }
