@@ -103,10 +103,36 @@ public class Proyecto extends JFrame implements ActionListener {
         lbltitulo.setFont(new java.awt.Font("Century Gothic", 0, 35));
 
         
-         lblfondo = new JLabel();
+        lblfondo = new JLabel();
         lblfondo.setIcon(new ImageIcon(getClass().getResource("/Recursos/fondoP.jpg")));
         vent.getContentPane().add(lblfondo);
         lblfondo.setBounds(225, 0, 880, 800);
+        
+        
+        
+        bj1 = new JButton(" ");
+        bj1.setIcon(new ImageIcon(getClass().getResource("/Recursos/btnRojo.png")));
+        bj1.addActionListener(this);
+        vent.getContentPane().add(bj1);
+        bj1.setBounds(1, 110, 244, 96);
+
+        bj2 = new JButton(" ");
+        bj2.setIcon(new ImageIcon(getClass().getResource("/Recursos/btnAzul.png")));
+        bj2.addActionListener(this);
+        vent.getContentPane().add(bj2);
+        bj2.setBounds(1, 550, 244, 96);
+
+        bj3 = new JButton(" ");
+        bj3.setIcon(new ImageIcon(getClass().getResource("/Recursos/btnAmarillo.png")));
+        bj3.addActionListener(this);
+        vent.getContentPane().add(bj3);
+        bj3.setBounds(1110, 110, 244, 96);
+
+        bj4 = new JButton(" ");
+        bj4.setIcon(new ImageIcon(getClass().getResource("/Recursos/btnVerde.png")));
+        bj4.addActionListener(this);
+        vent.getContentPane().add(bj4);
+        bj4.setBounds(1110, 550, 244, 96);
         
     }
     
