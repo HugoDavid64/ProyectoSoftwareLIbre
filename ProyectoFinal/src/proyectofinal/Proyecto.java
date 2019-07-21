@@ -78,6 +78,30 @@ public class Proyecto extends JFrame implements ActionListener {
         ayuda = new JMenu("Ayuda");
         barra.add(ayuda);
         
+        acercad = new JMenuItem("Acerca de");
+        acercad.addActionListener(this);
+        ayuda.add(acercad);
+        
+        iniciar = new JMenuItem(" Iniciar");
+        iniciar.addActionListener(this);
+        archivo.add(iniciar);
+
+        cerrarTodo = new JMenuItem(" Cerrar Todo");
+        cerrarTodo.addActionListener(this);
+        archivo.add(cerrarTodo);
+        
+        ventAcercaDe = new JFrame();
+        ventAcercaDe.setTitle("Acerca del Juego");
+        ventAcercaDe.setLocation(350, 150);
+        ventAcercaDe.setSize(700,440);
+        ventAcercaDe.setLayout(null);
+        ventAcercaDe.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
+        
+
+        
+        lbltitulo.setFont(new java.awt.Font("Century Gothic", 0, 35));
+
+        
     }
     
     @Override
