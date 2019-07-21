@@ -198,7 +198,7 @@ public class Numeros extends JFrame implements ActionListener{
         soles.setVisible(false);
 
         soles2 = new JLabel();
-        soles2.setIcon(new ImageIcon(getClass().getResource("/Recursos//Recursos/s2.png")));
+        soles2.setIcon(new ImageIcon(getClass().getResource("/Recursos/s2.png")));
         soles2.setBounds(700, 200, 400, 400);
         ventanilla.getContentPane().add(soles2);
         soles2.setVisible(false);

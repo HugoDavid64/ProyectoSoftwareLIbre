@@ -26,9 +26,10 @@ public class Animales extends JFrame implements ActionListener {
     JButton sg, amarillo, rojo, azul, verde, amarillo1, rojo1, azul1, verde1, amarillo2, rojo2, azul2, verde2, amarillo3, rojo3, azul3, verde3;
     JLabel tit, perro, cfeliz, cfelizroja, gato, gallo, pato;
     AudioClip sonidoperro, sonidogato, sonidogallo, sonidopato;
-    JFrame ventanaEmergente, vf;
-    JButton btnAceptar, boton;
-    JLabel lblimg, vff;
+    //Ventana emergente
+    JFrame ventanaEmergente,vf;
+    JButton btnAceptar,boton;
+    JLabel lblimg,vff;
 
     public void ventAnimales() {
 
@@ -385,31 +386,32 @@ public class Animales extends JFrame implements ActionListener {
             sonidoperro.play();
             cfeliz.setVisible(false);
             cfelizroja.setVisible(true);
-
+            
         }
         if (ae.getSource() == azul3) {
-            gallo.setVisible(false);
+             gallo.setVisible(false);
             pato.setVisible(true);
             sonidoperro.play();
             cfelizroja.setVisible(true);
-
+            
         }
         if (ae.getSource() == verde3) {
-            gallo.setVisible(false);
+             gallo.setVisible(false);
             pato.setVisible(true);
             sonidogato.play();
             cfelizroja.setVisible(true);
-
+            
         }
         if (ae.getSource() == rojo3) {
-            gallo.setVisible(false);
+             gallo.setVisible(false);
             pato.setVisible(true);
             sonidopato.play();
+            
             cfelizroja.setVisible(false);
             cfeliz.setVisible(true);
-
             vf.setVisible(true);
         }
+        
         if (ae.getSource() == sg) {
             try {
                 vent.dispose();
