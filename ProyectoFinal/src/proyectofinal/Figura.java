@@ -6,7 +6,10 @@
 package proyectofinal;
 
 import java.awt.Color;
+import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -17,8 +20,8 @@ import javax.swing.Timer;
  *
  * @author orlando
  */
-public abstract class Figura extends JFrame implements ActionListener{
-    
+public class Figura extends JFrame implements ActionListener, KeyListener{
+
     Timer reloj, reloj2;
     JFrame frame;
     JLabel imagen,imagen2,p,p1,m,con,q,cv,lblflf,f;
@@ -68,6 +71,69 @@ public abstract class Figura extends JFrame implements ActionListener{
        pause1.setFont(new java.awt.Font("Century Gothic", 0, 15));
        frame.getContentPane().add(pause1);
        
+       arriba = new JButton ();
+       arriba.setIcon(new ImageIcon(getClass().getResource("/Recursos/btamarillo.png") ));
+       arriba.setBounds(800, 550, 130, 80);
+       frame.getContentPane().add(arriba);
+       arriba.setVisible(true);
+       arriba.addActionListener(this);
+       arriba.addKeyListener(this);
+      
+       lblflf = new JLabel(" ENCAJE LAS FIGURAS  ");
+       lblflf.setBounds(400, 60, 1000, 100);
+       lblflf.setVisible(true);
+       lblflf.setFont(new java.awt.Font("Century Gothic", 0, 35));
+       frame.getContentPane().add(lblflf);
+     
+      
+       abajo1 = new JButton ();
+       abajo1.setIcon(new ImageIcon(getClass().getResource("/Recursos/btverde.png") ));
+       abajo1.setBounds(680, 550, 130, 80);
+       frame.getContentPane().add(abajo1);
+       abajo1.setVisible(true);
+       abajo1.addActionListener(this);
+       abajo1.addKeyListener(this);
+
+       derecha1 = new JButton ();
+       derecha1.setIcon(new ImageIcon(getClass().getResource("/Recursos/btazul.png") ));
+       derecha1.setBounds(550, 550, 130, 80);
+       frame.getContentPane().add(derecha1);
+       derecha1.setVisible(true);
+       derecha1.addActionListener(this);
+       derecha1.addKeyListener(this);
+
+       izquierda1 = new JButton ();
+       izquierda1.setIcon(new ImageIcon(getClass().getResource("/Recursos/btrojo.png") ));
+       izquierda1.setBounds(420, 550, 130, 80);
+       frame.getContentPane().add(izquierda1);
+       izquierda1.setVisible(true);
+       izquierda1.addActionListener(this);
+       izquierda1.addKeyListener(this);
+       
+       
     }
+    
+    
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void keyTyped(KeyEvent e) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void keyPressed(KeyEvent e) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void keyReleased(KeyEvent e) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+    
     
 }

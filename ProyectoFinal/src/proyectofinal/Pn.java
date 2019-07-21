@@ -200,8 +200,8 @@ public class Pn extends JFrame implements ActionListener {
         }
         if(ae.getSource()==boton)
         {   vf.setVisible(false);  
-            //Figuras fg = new Figuras ();
-           // fg.Vent();
+            Figura fg = new Figura();
+            fg.ventana();
             ventanilla.dispose();
         }
 

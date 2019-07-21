@@ -44,11 +44,7 @@ public class Proyecto extends JFrame implements ActionListener {
     Animales anim = new Animales();
     Numeros num = new Numeros();
     Pn p = new Pn();
-
-    /*
-    
-    
-    Figuras fg = new Figuras ();*/
+    Figura fg = new Figura ();
 
     public void proyecVent() throws Exception {
 
@@ -158,7 +154,7 @@ public class Proyecto extends JFrame implements ActionListener {
             p.niños();
         }
         if (e.getSource() == bj4) {
-
+            fg.ventana();
         }
 
         if (e.getSource() == btnIniciar || e.getSource() == iniciar) {
