@@ -14,8 +14,10 @@ public class Main {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         // TODO code application logic here
+        Proyecto vent = new Proyecto();
+        vent.proyecVent();
     }
     
 }

@@ -9,6 +9,7 @@ import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Timer;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
@@ -101,6 +102,11 @@ public class Proyecto extends JFrame implements ActionListener {
         
         lbltitulo.setFont(new java.awt.Font("Century Gothic", 0, 35));
 
+        
+         lblfondo = new JLabel();
+        lblfondo.setIcon(new ImageIcon(getClass().getResource("/Recursos/fondoP.jpg")));
+        vent.getContentPane().add(lblfondo);
+        lblfondo.setBounds(225, 0, 880, 800);
         
     }
     
