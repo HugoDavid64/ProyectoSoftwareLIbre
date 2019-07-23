@@ -61,6 +61,23 @@ public class Proyecto extends JFrame implements ActionListener {
         vent.getContentPane().add(lbltitulo);
         lbltitulo.setBounds(215, 10, 1000, 100);
         
+        
+        btnIniciar = new JButton("  INICIAR TEST >>> ");
+        vent.getContentPane().add(btnIniciar);
+        btnIniciar.setBounds(575, 500, 200, 50);
+
+        btnIniciar.addActionListener(this);
+        btnIniciar.setFont(new java.awt.Font("Century Gothic", 0, 15));
+        
+          barra = new JMenuBar();
+        vent.setJMenuBar(barra);
+
+        archivo = new JMenu("Archivo");
+        barra.add(archivo);
+        
+        ayuda = new JMenu("Ayuda");
+        barra.add(ayuda);
+        
     }
     
     @Override
