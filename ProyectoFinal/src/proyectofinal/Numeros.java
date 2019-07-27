@@ -32,7 +32,7 @@ public class Numeros extends JFrame implements ActionListener{
     JLabel lblimg,vff;
 
     
-    public void num (){
+    public void nume(){
           iupi = java.applet.Applet.newAudioClip(getClass().getResource("son.wav"));
         iupi2 = java.applet.Applet.newAudioClip(getClass().getResource("son1.wav"));
 
@@ -73,6 +73,90 @@ public class Numeros extends JFrame implements ActionListener{
         amm.setIcon(new ImageIcon(getClass().getResource("am.png")));
         amm.setBounds(350, 500, 100, 94);
         ventanilla.getContentPane().add(amm);
+        
+         v = new JButton("");
+        v.addActionListener(this);
+        v.setIcon(new ImageIcon(getClass().getResource("ver2.png")));
+        v.setBounds(500, 500, 100, 94);
+        ventanilla.getContentPane().add(v);
+
+        // BOTONES 2
+        r2 = new JButton();
+        r2.addActionListener(this);
+        r2.setIcon(new ImageIcon(getClass().getResource("ro.png")));
+        r2.setBounds(50, 500, 100, 94);
+        ventanilla.getContentPane().add(r2);
+        r2.setVisible(false);
+
+        a2 = new JButton("");
+        a2.addActionListener(this);
+        a2.setBounds(200, 500, 100, 94);
+        a2.setIcon(new ImageIcon(getClass().getResource("az.png")));
+        ventanilla.getContentPane().add(a2);
+        a2.setVisible(false);
+
+        amm2 = new JButton("");
+        amm2.addActionListener(this);
+        amm2.setIcon(new ImageIcon(getClass().getResource("am2.png")));
+        amm2.setBounds(350, 500, 100, 94);
+        ventanilla.getContentPane().add(amm2);
+        amm2.setVisible(false);
+
+        v2 = new JButton("");
+        v2.addActionListener(this);
+        v2.setIcon(new ImageIcon(getClass().getResource("ver2.png")));
+        v2.setBounds(500, 500, 100, 94);
+        ventanilla.getContentPane().add(v2);
+        v2.setVisible(false);
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
     }
     

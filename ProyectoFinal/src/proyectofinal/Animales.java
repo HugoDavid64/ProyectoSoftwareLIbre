@@ -252,8 +252,8 @@ public class Animales extends JFrame implements ActionListener {
 
         if (ae.getSource() == boton) {
             vf.setVisible(false);
-            //numeros obj1 = new numeros();
-            // obj1.num();
+            Numeros obj1 = new Numeros();
+            obj1.nume();
             vent.dispose();
         }
         //perro

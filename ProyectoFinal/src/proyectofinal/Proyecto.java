@@ -150,6 +150,7 @@ public class Proyecto extends JFrame implements ActionListener {
 
         }
         if (e.getSource() == bj2) {
+            num.nume();
             
         }
         if (e.getSource() == bj3) {
