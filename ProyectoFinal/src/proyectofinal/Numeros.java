@@ -32,6 +32,50 @@ public class Numeros extends JFrame implements ActionListener{
     JLabel lblimg,vff;
 
     
+    public void num (){
+          iupi = java.applet.Applet.newAudioClip(getClass().getResource("son.wav"));
+        iupi2 = java.applet.Applet.newAudioClip(getClass().getResource("son1.wav"));
+
+        ventanilla = new JFrame("CUENTA EL NUMERO DE OBJETOS");
+        ventanilla.setLocation(0, 0);
+        ventanilla.setSize(1400, 1000);
+        ventanilla.getContentPane().setBackground(Color.gray);
+        ventanilla.setLayout(null);
+        ventanilla.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        pause = new JButton("  Regresar >>> ");
+        pause.setBounds(1000, 600, 200, 50);
+        pause.addActionListener(this);
+        pause.setVisible(true);
+        pause.setFont(new java.awt.Font("Century Gothic", 0, 15));
+        ventanilla.getContentPane().add(pause);
+
+        lblflf = new JLabel(" CUENTE EL NUMERO DE OBJETOS ");
+        lblflf.setBounds(400, 60, 1000, 100);
+        lblflf.setVisible(true);
+        lblflf.setFont(new java.awt.Font("Century Gothic", 0, 35));
+        ventanilla.getContentPane().add(lblflf);
+
+        r = new JButton();
+        r.addActionListener(this);
+        r.setIcon(new ImageIcon(getClass().getResource("ro.png")));
+        r.setBounds(50, 500, 100, 94);
+        ventanilla.getContentPane().add(r);
+
+        a = new JButton("");
+        a.addActionListener(this);
+        a.setBounds(200, 500, 100, 94);
+        a.setIcon(new ImageIcon(getClass().getResource("az.png")));//ffffffffffffffffffffffalta imagen 
+        ventanilla.getContentPane().add(a);
+
+        amm = new JButton("");
+        amm.addActionListener(this);
+        amm.setIcon(new ImageIcon(getClass().getResource("am.png")));
+        amm.setBounds(350, 500, 100, 94);
+        ventanilla.getContentPane().add(amm);
+        
+    }
+    
     @Override
     public void actionPerformed(ActionEvent e) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.

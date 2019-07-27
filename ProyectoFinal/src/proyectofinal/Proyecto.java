@@ -42,9 +42,10 @@ public class Proyecto extends JFrame implements ActionListener {
     JLabel lblimg;
 
     Animales anim = new Animales();
+    Numeros num = new Numeros();
 
     /*
-    Numeros num = new Numeros();
+    
     Pn p = new Pn();
     Figuras fg = new Figuras ();*/
 
@@ -149,7 +150,7 @@ public class Proyecto extends JFrame implements ActionListener {
 
         }
         if (e.getSource() == bj2) {
-
+            
         }
         if (e.getSource() == bj3) {
 
@@ -159,7 +160,7 @@ public class Proyecto extends JFrame implements ActionListener {
         }
 
         if (e.getSource() == btnIniciar || e.getSource() == iniciar) {
-
+            anim.ventAnimales();
         }
 
         if (e.getSource() == cerrarTodo) {
