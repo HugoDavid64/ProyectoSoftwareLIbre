@@ -193,8 +193,111 @@ public class Pn extends JFrame implements ActionListener {
     }
 
     @Override
-    public void actionPerformed(ActionEvent e) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void actionPerformed(ActionEvent ae) {
+         if(ae.getSource()==btnAceptar)
+        {   ventanaEmergente.setVisible(false);
+            
+        }
+        if(ae.getSource()==boton)
+        {   vf.setVisible(false);  
+            //Figuras fg = new Figuras ();
+           // fg.Vent();
+            ventanilla.dispose();
+        }
+
+        if (ae.getSource() == v) {
+            lblflf.setVisible(false);
+            cv.setVisible(false);
+            sonido2.play();
+          
+
+        } else if (ae.getSource() == r) {
+            lblflf.setVisible(false);
+            cv.setVisible(true);
+            
+            sonido.play();
+            cr.setVisible(false);
+           
+            p.setVisible(false);
+            j.setVisible(true);
+            r.setVisible(false);
+            v.setVisible(false);
+            r2.setVisible(true);
+            v2.setVisible(true);
+
+        }
+                    //Jugando
+
+        if (ae.getSource() == r2) {
+            cv.setVisible(false);
+            sonido2.play();
+            cr.setVisible(true);
+            
+        } else if (ae.getSource() == v2) {
+            cv.setVisible(true);
+          
+            sonido.play();
+            cr.setVisible(false);
+            j.setVisible(false);
+            f.setVisible(true);
+            r.setVisible(false);
+            v.setVisible(false);
+            r2.setVisible(false);
+            v2.setVisible(false);
+            r4.setVisible(true);
+            v3.setVisible(true);
+
+        }
+
+                    //Familia
+        if (ae.getSource() == r4) {
+            cv.setVisible(false);
+            sonido2.play();
+            cr.setVisible(true);
+         
+        } else if (ae.getSource() == v3) {
+            cv.setVisible(true);
+           
+            sonido.play();
+            j.setVisible(false);
+            cr.setVisible(false);
+            f.setVisible(false);
+            d.setVisible(true);
+            r.setVisible(false);
+            v.setVisible(true);
+            r3.setVisible(true);
+            v3.setVisible(false);
+
+            ver4.setVisible(true);
+
+        }
+
+             //discutiendo
+        if (ae.getSource() == ver4) {
+            cv.setVisible(false);
+            sonido2.play();
+            cr.setVisible(true);
+          
+        } else if (ae.getSource() == r3) {
+            cv.setVisible(true);
+           
+            sonido.play();
+            cr.setVisible(false);
+            vf.setVisible(true);
+
+        }
+        if(ae.getSource()==pause){
+       
+        ventanilla.dispose();
+            
+        }
+        
+    }
+    public void salir(){
+    
+        ventanilla.dispose();
+    
+    
     }
 
 }
