@@ -76,6 +76,546 @@ public class Pn extends JFrame implements ActionListener{
         
         
         
+          // BOTONES 2
+        r2 = new JButton();
+        r2.addActionListener(this);
+        r2.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r2.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r2);
+        r2.setVisible(false);
+
+        v2 = new JButton("");
+        v2.addActionListener(this);
+        v2.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        v2.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(v2);
+        v2.setVisible(false);
+
+        r3 = new JButton();
+        r3.addActionListener(this);
+        r3.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r3.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r3);
+        r3.setVisible(false);
+
+        v3 = new JButton("");
+        v3.addActionListener(this);
+        v3.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        v3.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(v3);
+        v3.setVisible(false);
+
+        r4 = new JButton();
+        r4.addActionListener(this);
+        r4.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r4.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r4);
+        r4.setVisible(false);
+
+        ver4 = new JButton("");
+        ver4.addActionListener(this);
+        ver4.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        ver4.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(ver4);
+        ver4.setVisible(false);  // BOTONES 2
+        r2 = new JButton();
+        r2.addActionListener(this);
+        r2.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r2.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r2);
+        r2.setVisible(false);
+
+        v2 = new JButton("");
+        v2.addActionListener(this);
+        v2.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        v2.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(v2);
+        v2.setVisible(false);
+
+        r3 = new JButton();
+        r3.addActionListener(this);
+        r3.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r3.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r3);
+        r3.setVisible(false);
+
+        v3 = new JButton("");
+        v3.addActionListener(this);
+        v3.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        v3.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(v3);
+        v3.setVisible(false);
+
+        r4 = new JButton();
+        r4.addActionListener(this);
+        r4.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r4.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r4);
+        r4.setVisible(false);
+
+        ver4 = new JButton("");
+        ver4.addActionListener(this);
+        ver4.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        ver4.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(ver4);
+        ver4.setVisible(false);  // BOTONES 2
+        r2 = new JButton();
+        r2.addActionListener(this);
+        r2.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r2.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r2);
+        r2.setVisible(false);
+
+        v2 = new JButton("");
+        v2.addActionListener(this);
+        v2.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        v2.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(v2);
+        v2.setVisible(false);
+
+        r3 = new JButton();
+        r3.addActionListener(this);
+        r3.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r3.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r3);
+        r3.setVisible(false);
+
+        v3 = new JButton("");
+        v3.addActionListener(this);
+        v3.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        v3.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(v3);
+        v3.setVisible(false);
+
+        r4 = new JButton();
+        r4.addActionListener(this);
+        r4.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r4.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r4);
+        r4.setVisible(false);
+
+        ver4 = new JButton("");
+        ver4.addActionListener(this);
+        ver4.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        ver4.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(ver4);
+        ver4.setVisible(false);  // BOTONES 2
+        r2 = new JButton();
+        r2.addActionListener(this);
+        r2.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r2.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r2);
+        r2.setVisible(false);
+
+        v2 = new JButton("");
+        v2.addActionListener(this);
+        v2.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        v2.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(v2);
+        v2.setVisible(false);
+
+        r3 = new JButton();
+        r3.addActionListener(this);
+        r3.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r3.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r3);
+        r3.setVisible(false);
+
+        v3 = new JButton("");
+        v3.addActionListener(this);
+        v3.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        v3.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(v3);
+        v3.setVisible(false);
+
+        r4 = new JButton();
+        r4.addActionListener(this);
+        r4.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r4.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r4);
+        r4.setVisible(false);
+
+        ver4 = new JButton("");
+        ver4.addActionListener(this);
+        ver4.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        ver4.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(ver4);
+        ver4.setVisible(false);  // BOTONES 2
+        r2 = new JButton();
+        r2.addActionListener(this);
+        r2.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r2.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r2);
+        r2.setVisible(false);
+
+        v2 = new JButton("");
+        v2.addActionListener(this);
+        v2.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        v2.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(v2);
+        v2.setVisible(false);
+
+        r3 = new JButton();
+        r3.addActionListener(this);
+        r3.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r3.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r3);
+        r3.setVisible(false);
+
+        v3 = new JButton("");
+        v3.addActionListener(this);
+        v3.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        v3.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(v3);
+        v3.setVisible(false);
+
+        r4 = new JButton();
+        r4.addActionListener(this);
+        r4.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r4.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r4);
+        r4.setVisible(false);
+
+        ver4 = new JButton("");
+        ver4.addActionListener(this);
+        ver4.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        ver4.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(ver4);
+        ver4.setVisible(false);  // BOTONES 2
+        r2 = new JButton();
+        r2.addActionListener(this);
+        r2.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r2.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r2);
+        r2.setVisible(false);
+
+        v2 = new JButton("");
+        v2.addActionListener(this);
+        v2.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        v2.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(v2);
+        v2.setVisible(false);
+
+        r3 = new JButton();
+        r3.addActionListener(this);
+        r3.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r3.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r3);
+        r3.setVisible(false);
+
+        v3 = new JButton("");
+        v3.addActionListener(this);
+        v3.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        v3.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(v3);
+        v3.setVisible(false);
+
+        r4 = new JButton();
+        r4.addActionListener(this);
+        r4.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r4.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r4);
+        r4.setVisible(false);
+
+        ver4 = new JButton("");
+        ver4.addActionListener(this);
+        ver4.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        ver4.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(ver4);
+        ver4.setVisible(false);  // BOTONES 2
+        r2 = new JButton();
+        r2.addActionListener(this);
+        r2.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r2.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r2);
+        r2.setVisible(false);
+
+        v2 = new JButton("");
+        v2.addActionListener(this);
+        v2.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        v2.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(v2);
+        v2.setVisible(false);
+
+        r3 = new JButton();
+        r3.addActionListener(this);
+        r3.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r3.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r3);
+        r3.setVisible(false);
+
+        v3 = new JButton("");
+        v3.addActionListener(this);
+        v3.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        v3.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(v3);
+        v3.setVisible(false);
+
+        r4 = new JButton();
+        r4.addActionListener(this);
+        r4.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r4.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r4);
+        r4.setVisible(false);
+
+        ver4 = new JButton("");
+        ver4.addActionListener(this);
+        ver4.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        ver4.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(ver4);
+        ver4.setVisible(false);  // BOTONES 2
+        r2 = new JButton();
+        r2.addActionListener(this);
+        r2.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r2.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r2);
+        r2.setVisible(false);
+
+        v2 = new JButton("");
+        v2.addActionListener(this);
+        v2.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        v2.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(v2);
+        v2.setVisible(false);
+
+        r3 = new JButton();
+        r3.addActionListener(this);
+        r3.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r3.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r3);
+        r3.setVisible(false);
+
+        v3 = new JButton("");
+        v3.addActionListener(this);
+        v3.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        v3.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(v3);
+        v3.setVisible(false);
+
+        r4 = new JButton();
+        r4.addActionListener(this);
+        r4.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r4.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r4);
+        r4.setVisible(false);
+
+        ver4 = new JButton("");
+        ver4.addActionListener(this);
+        ver4.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        ver4.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(ver4);
+        ver4.setVisible(false);  // BOTONES 2
+        r2 = new JButton();
+        r2.addActionListener(this);
+        r2.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r2.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r2);
+        r2.setVisible(false);
+
+        v2 = new JButton("");
+        v2.addActionListener(this);
+        v2.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        v2.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(v2);
+        v2.setVisible(false);
+
+        r3 = new JButton();
+        r3.addActionListener(this);
+        r3.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r3.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r3);
+        r3.setVisible(false);
+
+        v3 = new JButton("");
+        v3.addActionListener(this);
+        v3.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        v3.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(v3);
+        v3.setVisible(false);
+
+        r4 = new JButton();
+        r4.addActionListener(this);
+        r4.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r4.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r4);
+        r4.setVisible(false);
+
+        ver4 = new JButton("");
+        ver4.addActionListener(this);
+        ver4.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        ver4.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(ver4);
+        ver4.setVisible(false);  // BOTONES 2
+        r2 = new JButton();
+        r2.addActionListener(this);
+        r2.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r2.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r2);
+        r2.setVisible(false);
+
+        v2 = new JButton("");
+        v2.addActionListener(this);
+        v2.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        v2.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(v2);
+        v2.setVisible(false);
+
+        r3 = new JButton();
+        r3.addActionListener(this);
+        r3.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r3.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r3);
+        r3.setVisible(false);
+
+        v3 = new JButton("");
+        v3.addActionListener(this);
+        v3.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        v3.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(v3);
+        v3.setVisible(false);
+
+        r4 = new JButton();
+        r4.addActionListener(this);
+        r4.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r4.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r4);
+        r4.setVisible(false);
+
+        ver4 = new JButton("");
+        ver4.addActionListener(this);
+        ver4.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        ver4.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(ver4);
+        ver4.setVisible(false);  // BOTONES 2
+        r2 = new JButton();
+        r2.addActionListener(this);
+        r2.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r2.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r2);
+        r2.setVisible(false);
+
+        v2 = new JButton("");
+        v2.addActionListener(this);
+        v2.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        v2.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(v2);
+        v2.setVisible(false);
+
+        r3 = new JButton();
+        r3.addActionListener(this);
+        r3.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r3.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r3);
+        r3.setVisible(false);
+
+        v3 = new JButton("");
+        v3.addActionListener(this);
+        v3.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        v3.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(v3);
+        v3.setVisible(false);
+
+        r4 = new JButton();
+        r4.addActionListener(this);
+        r4.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r4.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r4);
+        r4.setVisible(false);
+
+        ver4 = new JButton("");
+        ver4.addActionListener(this);
+        ver4.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        ver4.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(ver4);
+        ver4.setVisible(false);  // BOTONES 2
+        r2 = new JButton();
+        r2.addActionListener(this);
+        r2.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r2.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r2);
+        r2.setVisible(false);
+
+        v2 = new JButton("");
+        v2.addActionListener(this);
+        v2.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        v2.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(v2);
+        v2.setVisible(false);
+
+        r3 = new JButton();
+        r3.addActionListener(this);
+        r3.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r3.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r3);
+        r3.setVisible(false);
+
+        v3 = new JButton("");
+        v3.addActionListener(this);
+        v3.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        v3.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(v3);
+        v3.setVisible(false);
+
+        r4 = new JButton();
+        r4.addActionListener(this);
+        r4.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r4.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r4);
+        r4.setVisible(false);
+
+        ver4 = new JButton("");
+        ver4.addActionListener(this);
+        ver4.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        ver4.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(ver4);
+        ver4.setVisible(false);
+    // BOTONES 2
+        r2 = new JButton();
+        r2.addActionListener(this);
+        r2.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r2.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r2);
+        r2.setVisible(false);
+
+        v2 = new JButton("");
+        v2.addActionListener(this);
+        v2.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        v2.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(v2);
+        v2.setVisible(false);
+
+        r3 = new JButton();
+        r3.addActionListener(this);
+        r3.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r3.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r3);
+        r3.setVisible(false);
+
+        v3 = new JButton("");
+        v3.addActionListener(this);
+        v3.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        v3.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(v3);
+        v3.setVisible(false);
+
+        r4 = new JButton();
+        r4.addActionListener(this);
+        r4.setIcon(new ImageIcon(getClass().getResource("rojo.png")));
+        r4.setBounds(50, 500, 120, 70);
+        ventanilla.getContentPane().add(r4);
+        r4.setVisible(false);
+
+        ver4 = new JButton("");
+        ver4.addActionListener(this);
+        ver4.setIcon(new ImageIcon(getClass().getResource("verde.png")));
+        ver4.setBounds(500, 500, 120, 70);
+        ventanilla.getContentPane().add(ver4);
+        ver4.setVisible(false);
+        
+        
+        
+        
+        
     }
     
     
