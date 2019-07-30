@@ -164,7 +164,7 @@ public class Proyecto extends JFrame implements ActionListener {
         if (e.getSource() == cerrarTodo) {
             vent.setVisible(false);
         }
-
+//practiaaa
     }
 
 }
