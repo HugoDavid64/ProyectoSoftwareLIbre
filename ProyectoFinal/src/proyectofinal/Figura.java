@@ -10,6 +10,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -110,14 +112,230 @@ public class Figura extends JFrame implements ActionListener, KeyListener{
        izquierda1.addActionListener(this);
        izquierda1.addKeyListener(this);
        
+       imagen = new JLabel ();
+       imagen.setIcon(new ImageIcon(getClass().getResource("/Recursos/hh.png")));
+       imagen.setBounds(200, 100, 157, 160);
+       frame.getContentPane().add(imagen);
+       imagen.setVisible(true);
+      
+        imagen2 = new JLabel ();
+       imagen2.setIcon(new ImageIcon(getClass().getResource("/Recursos/cc.png")));
+       imagen2.setBounds(200, 100, 200, 200);
+       frame.getContentPane().add(imagen2);
+       imagen2.setVisible(false);
+       
+       p = new JLabel ();
+       p.setIcon(new ImageIcon(getClass().getResource("/Recursos/cd.jpg")));
+       p.setBounds(1100, 150, 200, 200);
+       frame.getContentPane().add(p);
+       p.setVisible(false);
+       
+       con = new JLabel ();
+       con.setIcon(new ImageIcon(getClass().getResource("/Recursos/4.png")));
+       con.setBounds(10, 350, 150, 160);
+       frame.getContentPane().add(con);
+       con.setVisible(true);
+       
+        cv = new JLabel();
+        cv.setBounds(1200,350, 150, 150);
+        cv.setIcon(new ImageIcon(getClass().getResource("/Recursos/fv.png")));
+        frame.getContentPane().add(cv);
+        cv.setVisible(false);
+        
+        
+        ventanaEmergente = new JFrame();
+        ventanaEmergente.setTitle("Instrucción");
+        ventanaEmergente.setLocation(450, 150);
+        ventanaEmergente.setSize(501, 500);
+        ventanaEmergente.setLayout(null);
+        ventanaEmergente.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
+        
+        lblimg= new JLabel();
+        lblimg.setIcon(new ImageIcon(getClass().getResource("/Recursos/encajarFigura.jpg")));
+        lblimg.setBounds(0, 0, 501, 500);
+        ventanaEmergente.getContentPane().add(lblimg);
+        
+        btnAceptar = new JButton("Aceptar");
+        btnAceptar.setBounds(180, 350, 110,50);
+        btnAceptar.addActionListener(this);
+        ventanaEmergente.getContentPane().add(btnAceptar);;
+        
+        vf = new JFrame();
+        vf.setTitle("");
+        vf.setLocation(450, 150);
+        vf.setSize(501, 500);
+        vf.setLayout(null);
+        vf.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
+        vf.setVisible(false);
+        
+        vff= new JLabel();
+        vff.setIcon(new ImageIcon(getClass().getResource("/Recursos/fin.png")));
+        vff.setBounds(0, 0, 501, 500);
+        vf.getContentPane().add(vff);
+        
+        
+        
+        vf2 = new JFrame();
+        vf2.setTitle("");
+        vf2.setLocation(450, 150);
+        vf2.setSize(501, 500);
+        vf2.setLayout(null);
+        vf2.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
+        vf2.setVisible(false);
+        
+        boton = new JButton("Aceptar");
+        boton.setBounds(180, 350, 110,50);
+        boton.addActionListener(this);
+        vf.getContentPane().add(boton);
+        
+        bt2 = new JButton("Aceptar");
+        bt2.setBounds(180, 350, 110,50);
+        bt2.addActionListener(this);
+        vf.getContentPane().add(bt2);
+        
+        
+        vff2= new JLabel();
+        vff2.setIcon(new ImageIcon(getClass().getResource("/Recursos/HG.png")));
+        vff2.setBounds(0, 0, 501, 500);
+        vf2.getContentPane().add(vff2);
+        
+   
+       frame.setVisible(true);
+       
+        reloj = new Timer (80,new ActionListener() 
+       {
+           
+           @Override
+           public void actionPerformed(ActionEvent e) 
+           {
+           
+             switch (tecla)
+                {
+                    case 1:
+                        y=y-5;
+                        
+                    break;
+                    case 2:
+                        y=y+5;
+                        
+                    break;
+                    case 3:
+                        x=x+5;
+                        
+                    break;
+                    case 4:
+                        x=x-5;
+                        
+                    break;    
+                } 
+             
+            imagen.setLocation(x, y);
+            imagen2.setLocation(x, y);
+                
+            if(x<=15&&x>=5&&y<=355&&y>=345)
+            {
+                reloj.stop();
+                x=200; y=100;
+                con.setVisible(false);
+                imagen.setVisible(false);
+                imagen2.setVisible(true);
+                m.setVisible(true);
+                cv.setVisible(true);
+               
+                p.setVisible(true);
+                imagen2.setLocation(x, y);
+                vf2.setVisible(false);
+            
+             }
+            if(x<=1105&&x>=1095&&y<=150&&y>=125)
+            {
+            reloj.stop();
+            
+            m.setVisible(true);
+            cv.setVisible(true);
+          
+            v=false;
+            vf.setVisible(true);
+            
+           
+            }
+           
+            }
+         
+       }); 
+       
+       
        
     }
     
     
     @Override
     public void actionPerformed(ActionEvent e) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+        //To change body of generated methods, choose Tools | Templates.
+      if(e.getSource()==btnAceptar)
+        {   ventanaEmergente.setVisible(false);     }
+        if(e.getSource()==boton)
+        {   
+            vf.dispose();
+            frame.dispose();
+        }
+        
+        if (e.getSource()==arriba)
+        {
+            m.setVisible(false);
+            tecla=1;
+            reloj.start();
+            lblflf.setVisible(false);
+            
+            v=true;
+        }  
+        if (e.getSource()==abajo1)
+        {
+            m.setVisible(false);
+            reloj.start();
+            tecla=2;
+            lblflf.setVisible(false);
+            
+            v=true;
+        } 
+        if (e.getSource()==derecha1)
+        { 
+            
+           m.setVisible(false);
+            reloj.start();
+            tecla=3;
+            lblflf.setVisible(false);
+            
+            v=true;
+           
+        } 
+        if (e.getSource()==izquierda1)
+        {
+            m.setVisible(false);
+            reloj.start();
+            lblflf.setVisible(false);
+            tecla=4;
+            
+            v=true;
+        }
+        if(e.getSource()==pause){
+           
+            Proyecto a = new Proyecto ();
+            try {
+              
+                
+            } catch (Exception ex) {
+                Logger.getLogger(Figura.class.getName()).log(Level.SEVERE, null, ex);
+            }
+            frame.dispose();
+            
+        }
+        if(e.getSource()==pause1){
+           System.exit(0);
+            
+        }
+            
+         }
 
     @Override
     public void keyTyped(KeyEvent e) {
@@ -126,7 +344,45 @@ public class Figura extends JFrame implements ActionListener, KeyListener{
 
     @Override
     public void keyPressed(KeyEvent e) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        //To change body of generated methods, choose Tools | Templates.
+    if (e.getKeyCode()==KeyEvent.VK_UP)
+        {
+            m.setVisible(false);
+            tecla=1;
+            reloj.start();
+            lblflf.setVisible(false);
+            
+            v=true;
+        }  
+        if (e.getKeyCode()==KeyEvent.VK_DOWN)
+        {
+            m.setVisible(false);
+            reloj.start();
+            tecla=2;
+            lblflf.setVisible(false);
+            
+            v=true;
+        } 
+        if (e.getKeyCode()==KeyEvent.VK_RIGHT)
+        {
+            
+           m.setVisible(false);
+            reloj.start();
+            tecla=3;
+            lblflf.setVisible(false);
+            
+            v=true;
+           
+        } 
+        if (e.getKeyCode()==KeyEvent.VK_LEFT)
+        {
+            m.setVisible(false);
+            reloj.start();
+            tecla=4;
+            lblflf.setVisible(false);
+            
+            v=true;
+        }
     }
 
     @Override
